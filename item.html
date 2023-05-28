@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POS System -Item</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.jpg" alt="Logo" width="90" height="70" class="d-inline-block align-text-top">
+            </a>
+            <span class="navbar-text fw-bold fs-2 ">Tharuka POS System   </span>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="order.html">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="item.html">Items</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log out</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="container-fluid">
+    <div class="alert alert-success" role="alert">
+        <img src="assets/images/item_logo.png" alt="Item logo"> <font class="fw-bold fs-4">Item</font>
+    </div>
+    <div class="container-fluid row">
+        <div class="col">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputIemCode" class="form-label">Item Code</label>
+                    <input type="text" class="form-control" id="exampleInputIemCode">
+                    <!--  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>-->
+
+                    <label for="exampleInputItemName" class="form-label">Item Name</label>
+                    <input type="text" class="form-control" id="exampleInputItemName">
+
+                    <label for="exampleInputItemUnitPrice" class="form-label">Item UnitPrice</label>
+                    <input type="text" class="form-control" id="exampleInputItemUnitPrice">
+
+                    <label for="exampleInputItemQty" class="form-label">Item Quantity</label>
+                    <input type="text" class="form-control" id="exampleInputItemQty">
+
+                    <div class="mt-5">
+                        <button type="button" class="  btn btn-success">Save</button>
+                        <button type="button" class=" btn btn-danger">Delete</button>
+                        <button type="button" class=" btn btn-warning">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col">
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">new item</button>
+                <button class="btn btn-primary" type="button">view all item</button>
+                <br><br>
+                <img src="assets/images/Item.jpg" alt="customer_image" height="300" width="500">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+</body>
+</html>
